@@ -22,9 +22,3 @@ Invoke the the Install-BoxstarterPackage command pointing to your gist created a
 ```
 > Install-BoxstarterPackage -PackageName https://gist.github.com/......./xxxx.txt -DisableReboots
 ```
-		
-
-# Alternative: Web installer
-```
-> START http://boxstarter.org/package/nr/url?URL_TO_YOUR_BOXSTARTER_SCRIPT.ps1
-```
