@@ -23,3 +23,5 @@ Invoke the the Install-BoxstarterPackage command pointing to your gist created a
 ```
 > Install-BoxstarterPackage -PackageName <URL-TO-RAW-GIST> -DisableReboots
 ```
+
+## [Method 2 - Web Launcher](https://github.com/hovermind/dev-env/blob/master/docs/doc-md/boxstarter-web-launcher.md)
