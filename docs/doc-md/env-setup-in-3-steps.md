@@ -1,7 +1,8 @@
-# Step-1:
+# Method 1
+## Step-1:
 create a github gist
 
-# Step-2:
+## Step-2:
 run powershell command: 
 ```
 > . { iwr -useb https://boxstarter.org/bootstrapper.ps1 } | iex; get-boxstarter -Force
@@ -10,7 +11,7 @@ run powershell command:
 **Note:**
 - Above command will install Chocolatey if necessary and then install the necessary boxstarter modules
 
-# Step-3:
+## Step-3:
 Invoke the the Install-BoxstarterPackage command pointing to your gist created above: 
 ```
 > Install-BoxstarterPackage -PackageName <URL-TO-RAW-GIST>
