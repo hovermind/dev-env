@@ -1,21 +1,10 @@
 # ------------------------------------------------------------------------------------------ windows
-#
-$Boxstarter.RebootOk=$true
-$Boxstarter.NoPassword=$true
-$Boxstarter.AutoLogin=$true
-
-Enable-MicrosoftUpdate
-Install-WindowsUpdate -acceptEula
-if (Test-PendingReboot) { Invoke-Reboot }
 
 Disable-UAC
-Set-ExecutionPolicy Unrestricted -Force
+
 
 # Configure Windows Explorer Options
 Set-WindowsExplorerOptions -EnableShowFileExtensions -EnableShowHiddenFilesFoldersDrives -EnableShowFullPathInTitleBar -EnableShowProtectedOSFiles
-
-# Taskbar
-Set-TaskbarOptions -Dock Bottom -Combine Full -AlwaysShowIconsOn
 
 Write-Host "Enabling Fast Startup..."
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\Session Manager\Power" -Name "HiberbootEnabled" -Type DWord -Value 1
