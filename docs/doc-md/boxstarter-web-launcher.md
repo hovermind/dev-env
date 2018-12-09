@@ -8,11 +8,11 @@
 ## Step-2: Use Internet Explorer of Chrome with [Click-Once Extention](https://chrome.google.com/webstore/detail/windows-remix-clickonce-h/dgpgholdldjjbcmpeckiephjigdpikan)
 
 ## Step-3: Goto web launcher url
-https://boxstarter.org/package/nr/url?<raw-url-of-ps1-script>
+https://boxstarter.org/package/nr/url?[raw-url-of-ps1-script]
 
 Example: https://boxstarter.org/package/nr/url?https://github.com/hovermind/dev-env/blob/master/ultimate-dev-env.ps1
 
-Notes:   
+**Notes:**     
 * nr means no reboot. if you want reboot you can remove it from url
 * you can use local ps1 script
 ```
