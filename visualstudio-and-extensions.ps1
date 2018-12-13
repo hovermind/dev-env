@@ -69,7 +69,8 @@ function installsilently($url, $name) {
   $result = Start-Process -FilePath "VSIXInstaller.exe" -ArgumentList "/q $extension" -Wait -PassThru;
 }
 
-#installsilently https://postsharptechnologies.gallerycdn.vsassets.io/extensions/postsharptechnologies/postsharp/6.0.31/1544272930239/PostSharp-6.0.31.exe
+
+installsilentlyhttps://marketplace.visualstudio.com/items?itemName=BrianLagunas.PrismTemplatePack
 installsilently https://marketplace.visualstudio.com/items?itemName=PostSharpTechnologies.PostSharp
 
 
