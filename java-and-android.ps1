@@ -9,3 +9,9 @@ refreshenv
 cinst androidstudio
 cinst eclipse
 cinst springtoolsuite
+cinst netbeans
+
+# servers
+cinst glassfish
+cinst tomcat
+cinst jetty
