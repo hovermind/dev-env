@@ -5,4 +5,4 @@ refreshenv
 cinst ruby.devkit
 refreshenv
 
-gem install jekyll bundler
+gem install bundler
