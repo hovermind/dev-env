@@ -1,26 +1,9 @@
-cinst python
-refreshenv
-cinst ruby
-refreshenv
-
 # IDEs
 cinst intellijidea-community
 cinst pycharm-community
 cinst webstorm
-
 cinst codeblocks
-
 cinst arduino
-
-# editors
-cinst vscode
-refreshenv
-
-# VS Code Extensions
-code --install-extension EditorConfig.EditorConfig
-code --install-extension nepaul.editorconfiggenerator
-code --install-extension robertohuertasm.vscode-icons
-
 cinst notepadplusplus
 cinst atom
 cinst sublimetext3
@@ -44,4 +27,3 @@ cinst bitnami-xampp
 
 cinst slack
 cinst markdownmonster
-#cinst markdowneditor
