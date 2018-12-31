@@ -12,3 +12,5 @@ cinst azure-cli
 #AWS Cli
 cinst awscli
 cinst awstools.powershell
+
+cinst kubernetes-cli
